@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV3</title>
+</head>
+<body>
+    <h1><b>Cadastro</b></h1>
+        <hr>
+
+        <form action="https://qfqdkj.hospedagemelastica.com.br/pweb/salvar.jsp" method="post">
+            Login : <br>
+            <input type="text" required name="login"><br>
+            Senha : <br>
+            <input type="password" name="senha"><br>
+            Confirme a Senha : <br>
+            <input type="password" name="confirmarsenha"><br>
+
+            Nome : <br>
+            <input type="text" name="nome"><br>
+            Sexo : <br>
+            <input type="radio" value="Masculino" name="sexo">Masculino<br>
+            <input type="radio" value="Feminino" name="sexo">Feminino<br>
+
+            Email : <br>
+            <input type="Email" name="email"><br>
+
+            Interesses : <br>
+            <input type="checkbox" value="Futebol" name="interesses">Futebol<br>
+            <input type="checkbox" value="Politica" name="interesses">Polotica<br>
+            <input type="checkbox" value="Economia" name="interesses">Economia<br>
+            <input type="checkbox" value="Carro" name="interesses">Carro<br>
+            <input type="checkbox" value="Celebridade" name="interesses">Celebridade<br>
+            <br>
+            Estado :
+            <select id="UF" name="estado">
+                <option value="PI">PI</option>
+                <option value="MA">MA</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </select><br>
+            <br>
+
+            Observações : <br>
+            <textarea name="observacao" rows="5" cols="20"></textarea> <br>
+            <input style="background-color:blue" style="color:red" type="submit" value="Salvar"> <br>
+    
+</body>
+</html>
