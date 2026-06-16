@@ -1,0 +1,19 @@
+.noticia {
+    font-family: "Open Sans", arial, sans-serif;
+    background-color: #f5f5dc;
+    border: 1px solid black;
+    color: #333333;
+    padding: 15px;
+    font-size: 1em;
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.noticia h1 {
+    color: red;
+    font-size: 2em;
+    font-family: "Helvetica Neue", "Helvetica", arial, sans-serif;
+    margin: 8px;
+}
